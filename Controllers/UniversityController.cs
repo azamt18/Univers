@@ -14,6 +14,7 @@ namespace WebApplicationSwagger.Controllers
     public class UniversityController : ApiController
     {
         // GET: api/University
+        // Test commit
         [HttpGet]
         [Route("Api/University/GetUniversities")]
         public IHttpActionResult Get()
